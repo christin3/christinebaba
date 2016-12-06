@@ -18,4 +18,5 @@ body {
 
 p{
   font:large;
+  z-index:1;
 }

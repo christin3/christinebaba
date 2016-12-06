@@ -12,7 +12,7 @@
     <script src="https://use.fontawesome.com/5c547b1e5d.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Bungee" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css"
           integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
@@ -60,6 +60,18 @@
             font-size: 60px;
         }
 
+        #footer {
+            position : fixed;
+            bottom : 0;
+            height : 40px;
+            margin-top : 40px;
+            text-align: center;
+            width: 100%;
+            color: white;
+            font-family: Bungee;
+
+        }
+
 
     </style>
 
@@ -85,41 +97,46 @@
             <a href="https://github.com/christin3" title="Github" target="_blank">
                 <i class="fa fa-github fa-4x " aria-hidden="true"></i></a>
 
+        </div>
+            <div id="footer">
 
+                 © 2016 &nbsp; Christine Baba
+
+            </div>
         </div>
 
 
-    </div>
+
 </div>
-<script>
-    $(function () {
-        $(".elementTyped").typed({
-            strings: ["Under Construction", "Check Back Soon!"],
-            typeSpeed: 100,
-            loop: true,
-            backDelay: 1500
+    <script>
+        $(function () {
+            $(".elementTyped").typed({
+                strings: ["Under Construction", "Check Back Soon!"],
+                typeSpeed: 100,
+                loop: true,
+                backDelay: 1500
+            });
         });
-    });
 
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-88450814-1', 'auto');
-    ga('send', 'pageview');
+        ga('create', 'UA-88450814-1', 'auto');
+        ga('send', 'pageview');
 
-</script>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js'></script>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js'></script>
-<script src="js/index.js"></script>
+    </script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js'></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js'></script>
+    <script src="js/index.js"></script>
 
 </body>
 </html>

@@ -1,22 +1,40 @@
-html,
-body {
-  position:relative;
+html{
+
+}
+#container-fluid, body {
+  position: relative;
   height: 100%;
   width: 100%;
-  margin: 0;
+
+}
+
+#overlay {
+  position: relative;
+  height: 100%;
+  width: 100%;
+
+
+}
+
+canvas {
+  overflow: auto;
+  position: absolute;
+  z-index: -1;
+}
+
+.content{
+  position: absolute;
+  top: 40vh;
+  z-index: 0;
+  left: 0;
   padding: 0;
-  z-index:1;
-  
-}
-
-#particle-canvas {
   width: 100%;
-  height: 100%;
-  z-index:-1;
-  position:absolute
-}
+  text-align: center;
+  visibility: visible;
 
-p{
-  font:large;
-  z-index:1;
+}
+h1,i{
+  font-family: 'Bungee Shade', cursive;
+  color: white;
+  font-size:60px ;
 }

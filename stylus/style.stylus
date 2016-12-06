@@ -1,3 +1,40 @@
-body
-	overflow hidden
-	background #111
+        html {
+
+        }
+
+        #container-fluid, body {
+            position: relative;
+
+
+        }
+
+        #overlay {
+            position: relative;
+            height: 100%;
+            width: 100%;
+
+        }
+
+        canvas {
+            overflow: auto;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .content {
+            position: absolute;
+            top: 40vh;
+            z-index: 0;
+            left: 0;
+            padding: 0;
+            width: 100%;
+            text-align: center;
+            visibility: visible;
+
+        }
+
+        h1, i {
+            font-family: 'Bungee Shade', cursive;
+            color: white;
+            font-size: 60px;
+        }

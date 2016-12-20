@@ -13,12 +13,79 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
     <script src="https://use.fontawesome.com/5c547b1e5d.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js"></script>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Bungee" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css"
           integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
-    
+
+
+    <style>
+        #container-fluid {
+            position: relative;
+            z-index: 0;
+
+        }
+
+        body {
+            background-attachment: fixed;
+            background-image: url("assets/milkyway.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+
+        }
+
+        #overlay {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            background-color: transparent;
+
+        }
+
+        canvas {
+            overflow: auto;
+            position: absolute;
+            z-index: -1;
+
+        }
+
+        .content {
+            position: absolute;
+            top: 40vh;
+            z-index: 0;
+            left: 0;
+            padding: 0;
+            width: 100%;
+            text-align: center;
+            visibility: visible;
+
+        }
+
+        h1, i {
+            font-family: 'Bungee Shade', cursive;
+            color: white;
+            font-size: 60px;
+        }
+
+        h2{
+            font-family: 'Bungee Shade', cursive;
+            color: white;
+            font-size: 32px;  }
+        #title{
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #nav {
+            background-color: transparent;
+        }
+
+    </style>
+
+
 </head>
 
 <body>

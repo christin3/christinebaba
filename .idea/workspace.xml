@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39198066-2c04-4795-98e5-1d4bcbcf501f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Cosmic Tree - APOD submission_small.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Liberty-Bell-new-tech-101-flat-layers-em.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/PinnaclesGalaxy_Goh_2400.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/name.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/contact_me.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jqBootstrapValidation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/contact_me.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modal work.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scratch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Christine.iml" afterPath="$PROJECT_DIR$/.idea/Christine.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="229" column="70" lean-forward="false" selection-start-line="229" selection-start-column="70" selection-end-line="229" selection-end-column="70" />
+            <state relative-caret-position="408">
+              <caret line="231" column="29" lean-forward="false" selection-start-line="231" selection-start-column="29" selection-end-line="231" selection-end-column="29" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -518,12 +507,12 @@
       <workItem from="1484813049257" duration="1995000" />
       <workItem from="1484815228963" duration="575000" />
       <workItem from="1484846288840" duration="9994000" />
-      <workItem from="1484857477005" duration="4148000" />
+      <workItem from="1484857477005" duration="4405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35082000" />
+    <option name="totallyTimeSpent" value="35339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1435" height="847" extended-state="0" />
@@ -917,8 +906,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="229" column="70" lean-forward="false" selection-start-line="229" selection-start-column="70" selection-end-line="229" selection-end-column="70" />
+        <state relative-caret-position="408">
+          <caret line="231" column="29" lean-forward="false" selection-start-line="231" selection-start-column="29" selection-end-line="231" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />

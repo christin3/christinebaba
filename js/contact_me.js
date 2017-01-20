@@ -21,7 +21,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "https://www.apparelart.com/Bootcamp/contact_me.php",
+                url: "https://www.christinebaba.com/Scripts/contact_me.php",
                 type: "POST",
                 data: {
                     name: name,

@@ -21,8 +21,8 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "mail/contact_me.php",
-                type: "PUT",
+                url: "https://www.apparelart.com/Bootcamp/contact_me.php",
+                type: "POST",
                 data: {
                     name: name,
                     phone: phone,

@@ -21,7 +21,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "https://www.christinebaba.com/Scripts/contact_me.php",
+                url: "https://github.com/christin3/christinebaba.com/Scripts/contact_me.php",
                 type: "POST",
                 data: {
                     name: name,

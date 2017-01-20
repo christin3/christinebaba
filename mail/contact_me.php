@@ -29,4 +29,3 @@ $response['status'] = 'HTTP 200 Ready';
 $response['message'] = 'This was successful';
 echo json_encode($response);
 return true;
-?>

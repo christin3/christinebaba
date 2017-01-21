@@ -32,12 +32,12 @@ var stats = new Stats();
 			context = canvas.getContext('2d'),
 			defaults = {
 				star: {
-					color: 'rgb(125, 66, 244)',
+					color: 'rgb(255, 153, 204)',
 					width: 1,
 					randomWidth: true
 				},
 				line: {
-					color: 'rgb(125, 66, 244)',
+					color: 'rgb(255, 255, 255)',
 					width: 0.4
 				},
 				position: {
@@ -204,7 +204,7 @@ $('canvas').constellation({
 		width:5
 	},
 	line: {
-		color: 'rgb(125, 66, 244)'
+		color: 'rgb(255, 255, 255)'
 	},
 	radius: 100
 

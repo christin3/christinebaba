@@ -6,11 +6,12 @@
     <title>Christine Baba</title>
 
 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/5c547b1e5d.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
           integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
+    <script src="js/typed.js"></script>
 
     <style>
         #container-fluid {
@@ -156,6 +157,49 @@
             width: 100%;
         }
 
+        .typed-cursor {
+            opacity: 1;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-webkit-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-moz-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
 
     </style>
 
@@ -193,6 +237,8 @@
         <canvas id="canvas"></canvas>
         <div class="content">
 
+            <div id="row text-align-center"><p> Hello</p></div>
+
         </div>
     </div>
 
@@ -206,6 +252,8 @@
                 Currently Under Construction.
                 <br>Have a look around! <br>
                 &#x2661; Christine
+
+                <div><span class="elementType"></span></div>
             </div>
         </div>
 
@@ -610,11 +658,20 @@
     ga('send', 'pageview');
 
 
+    $(function () {
+        $(".elementType").typed({
+            strings: ["First sentence.", "Second sentence."],
+            typeSpeed: 1
+        });
+    });
+
+
 </script>
 <script
         src="https://code.jquery.com/jquery-3.1.1.min.js"
         integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
         crossorigin="anonymous"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
         integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
         crossorigin="anonymous"></script>

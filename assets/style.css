@@ -31,16 +31,20 @@ canvas {
 
 }
 
-a {
+a,p {
     font-size: 16px;
     font-family: "Shree Devanagari 714";
-    color: gray;
+    color: black;
+
 }
 
-p {
+h1{    font-size: 45px;
     font-family: "Shree Devanagari 714";
-    color: gray;
+    color: black;
+    font-weight: 600;
+
 }
+
 
 #container1 {
     background-attachment: fixed;
@@ -55,9 +59,9 @@ p {
 
 #container2 {
     width: 100%;
-    height: 600px;
+    height: 500px;
     background-attachment: fixed;
-    background-color: white;
+    background-color: #f7f7f9;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -79,7 +83,7 @@ p {
 
 #container3 {
     width: 100%;
-    height: 600px;
+    height: auto;
     background-attachment: fixed;
     background-color: white;
     background-repeat: no-repeat;
@@ -101,9 +105,9 @@ p {
 
 #container4 {
     width: 100%;
-    height: 600px;
+    height: 500px;
     background-attachment: fixed;
-    background-color: white;
+    background-color: #f7f7f9;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -122,7 +126,7 @@ p {
 }
 
 .navbar {
-    position: fixed;
+
     width: 100%;
     z-index: 1;
     background-color: white;
@@ -146,9 +150,24 @@ p {
     width: 100%;
 }
 
-.nav-links {
-    float: right;
-    width: 100%;
+.modal-body {
+width: 50%!important;
+}
+
+.modal-content {
+
+    height: auto;
+    vertical-align: middle;
+}
+
+.portfolio-item {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.portfolio-link {
+    font-size: 25px;
 }
 
 

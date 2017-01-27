@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html style=" height: 100%; overflow-x: hidden">
 <head>
-    <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
     <script src="//load.sumome.com/"
             data-sumo-site-id="bfe76379be76cac752d8d3bc8e81024a159a87ca902fbf7348db26de9f93a127" async="async"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/5c547b1e5d.js"></script>
     <meta charset="UTF-8">
 
     <title>Christine Baba</title>
-
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="https://use.fontawesome.com/5c547b1e5d.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
           integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
-
+    <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.0/css/hover.css"/>
     <link rel="stylesheet" type="text/css" href="assets/style.css">
 
+
 </head>
+<script>
+    //screen loader
+    $(window).load(function () {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");
+        ;
+    });
+</script>
 
 <body>
+<div class="se-pre-con"></div>
 <div id="container-fluid">
 
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded ">
@@ -72,15 +81,16 @@
 
         <div class="container-fluid">
             <h1 style=" padding-top: 25px; padding-bottom: 10px; text-align: center;">{Hello, I'm Christine!}</h1>
-            <hr>
+            <hr style="text-align: center;">
             <div class="row">
                 <div class="col-lg-4" style="width: auto; padding-bottom: 25px;
 ">
-                    <img src="assets/headShot.png" height="auto" width="auto" class="img-responsive">
+                    <h1><img src="assets/headShot.png" height="auto" width="auto" class="img-responsive headshot "
+                    ></h1>
                     <br>
                 </div>
 
-                <div class="col-lg-6" id="aboutMe" style="font-size: 20px; text-align: justify; padding-top: 25px">
+                <div class="col-lg-6 " id="aboutMe" style="font-size: 20px;">
 
                     I'm a newly minted full-stack web developer focused on implementing MEAN stack technologies. I enjoy
                     creating visually pleasing sites focused on simplicity, functionality, and ease of use.<br>
@@ -88,19 +98,30 @@
                     I prefer to hit the ground running, as they say, when learning something new and truly thrive on the
                     satisfaction of solving problems that arise in any situation.
 
-
-                    <p style=" font-size: 30px; text-align: center">Favorite Technologies<br>
-                        <span style=" font-size: 50px" class="devicons devicons-html5" title="HTML5"></span>
-                        <span style=" font-size: 50px" class="devicons devicons-css3" title="CSS"></span>
-                        <span style=" font-size: 50px" class="devicons devicons-bootstrap" title="Bootstrap"></span>
-                        <span style=" font-size: 50px" class="devicons devicons-javascript" title="Javascript"></span>
-                        <span style=" font-size: 50px" class="devicons devicons-jquery" title="jQuery"></span>
-                        <span style=" font-size: 50px" class="devicons devicons-nodejs" title="NodeJS"></span>
-                        <span style=" font-size: 50px" class="devicons devicons-npm" title="NPM"></span>
-                        <span style=" font-size: 50px" class="devicons devicons-mongodb" title="MongoDB"></span>
-                        <span style=" font-size: 50px" class="devicons devicons-mysql" title="mySQL"></span>
-                        <span style=" font-size: 50px" class="devicons devicons-heroku" title="Heroku"></span>
-                    </p>
+                    <div style="padding-top: 20px">
+                        <p style=" font-size: 30px; text-align: center; padding-top: 20px;">Favorite Technologies<br>
+                            <span style=" font-size: 50px" class="devicons devicons-html5 hvr-bounce-in"
+                                  title="HTML5"></span>
+                            <span style=" font-size: 50px" class="devicons devicons-css3 hvr-bounce-in"
+                                  title="CSS"></span>
+                            <span style=" font-size: 50px" class="devicons devicons-bootstrap hvr-bounce-in"
+                                  title="Bootstrap"></span>
+                            <span style=" font-size: 50px" class="devicons devicons-javascript hvr-bounce-in"
+                                  title="Javascript"></span>
+                            <span style=" font-size: 50px" class="devicons devicons-jquery hvr-bounce-in"
+                                  title="jQuery"></span>
+                            <span style=" font-size: 50px" class="devicons devicons-nodejs hvr-bounce-in"
+                                  title="NodeJS"></span>
+                            <span style=" font-size: 50px" class="devicons devicons-npm hvr-bounce-in"
+                                  title="NPM"></span>
+                            <span style=" font-size: 50px" class="devicons devicons-mongodb hvr-bounce-in"
+                                  title="MongoDB"></span>
+                            <span style=" font-size: 50px" class="devicons devicons-mysql hvr-bounce-in"
+                                  title="mySQL"></span>
+                            <span style=" font-size: 50px" class="devicons devicons-heroku hvr-bounce-in"
+                                  title="Heroku"></span>
+                        </p>
+                    </div>
                 </div>
 
 
@@ -124,7 +145,7 @@
         <section id="portfolio">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4 portfolio-item">
+                    <div class="col-sm-4 portfolio-item hvr-bounce-in">
                         <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
 
                             {A Day with Your Dog}
@@ -134,7 +155,7 @@
                                  alt="Day With Your Dog">
                         </a>
                     </div>
-                    <div class="col-sm-4 portfolio-item">
+                    <div class="col-sm-4 portfolio-item hvr-bounce-in">
                         <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                             {Crystal Collector}
                             <br><br>
@@ -142,7 +163,7 @@
                                  alt="Crystal Collector">
                         </a>
                     </div>
-                    <div class="col-sm-4 portfolio-item">
+                    <div class="col-sm-4 portfolio-item hvr-bounce-in">
                         <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                             {Gnome at Home}
                             <br><br>
@@ -152,7 +173,7 @@
                         </a>
                     </div>
 
-                    <div class="col-sm-4 portfolio-item">
+                    <div class="col-sm-4 portfolio-item hvr-bounce-in">
                         <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                             {Reddit Scraper}
                             <br><br>
@@ -160,7 +181,7 @@
                                  alt="Reddit Scraper">
                         </a>
                     </div>
-                    <div class="col-sm-4 portfolio-item">
+                    <div class="col-sm-4 portfolio-item hvr-bounce-in">
                         <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                             {Triva Game}
                             <br><br>
@@ -168,7 +189,7 @@
                                  alt="Trivia Game">
                         </a>
                     </div>
-                    <div class="col-sm-4 portfolio-item">
+                    <div class="col-sm-4 portfolio-item hvr-bounce-in">
                         <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                             {To-Do List}
                             <br><br>
@@ -501,6 +522,7 @@
     </div>
 </div>
 <script>
+
 
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;

@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39198066-2c04-4795-98e5-1d4bcbcf501f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/projects/questions.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/projects/quiz.png" afterPath="$PROJECT_DIR$/assets/projects/quiz.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/projects/todo.png" afterPath="$PROJECT_DIR$/assets/projects/todo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/style.css" afterPath="$PROJECT_DIR$/assets/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="39198066-2c04-4795-98e5-1d4bcbcf501f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -584,7 +577,7 @@
       <workItem from="1485555172156" duration="21000" />
       <workItem from="1485578117349" duration="383000" />
       <workItem from="1485580280274" duration="433000" />
-      <workItem from="1485622126791" duration="2343000" />
+      <workItem from="1485622126791" duration="2527000" />
     </task>
     <task id="LOCAL-00001" summary="contact&#10;">
       <created>1484943439251</created>
@@ -632,7 +625,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80910000" />
+    <option name="totallyTimeSpent" value="81094000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

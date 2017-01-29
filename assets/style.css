@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: "Shree Devanagari 714";
+    font-family: 'Nixie One', cursive;
 
 }
 
@@ -31,14 +31,12 @@ canvas {
 
 a, p {
     font-size: 16px;
-    font-family: "Shree Devanagari 714";
     color: black;
 
 }
 
 h1 {
     font-size: 45px;
-    font-family: "Shree Devanagari 714";
     color: black;
 
 }
@@ -125,6 +123,7 @@ h1 {
     width: 100%;
     z-index: 1;
     background-color: white;
+    text-align: right;
 
 }
 
@@ -273,6 +272,6 @@ h1 {
 
 
 /* Extra Things */
-body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #444;}
+
 
 

@@ -129,7 +129,7 @@ h1 {
 #inner {
     width: 50%;
     padding: 0 auto;
-    background-image: url("name.jpeg");
+    /*background-image: url("name.jpeg");*/
     background-size: 100%;
     background-repeat: no-repeat;
 
